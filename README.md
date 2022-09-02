@@ -8,4 +8,4 @@ Formulario de Registro con labels, inputs y button en Python usando Pandas y Tki
 ![Image Text](https://github.com/facumruiz/PythonGUI/blob/main/Form2CSV/img/formbuttonlabel.PNG)
 
 ### Funcion button: agregar_datos()
-Agrega los datos del formulario a un excel, proxima actualizacion... formato csv
+Agrega los datos del formulario a un excel. Proxima actualizacion... formato csv
