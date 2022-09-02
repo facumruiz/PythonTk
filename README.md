@@ -14,23 +14,14 @@ Aplicaciones visuales hechas con la libreria tkinter de python
 | Sticky   | Descripcion |
 | --- | --- |
 | N   | Norte o centro superior |
-
 | S   | Centro Sur o Inferior |
-
 | E   | Centro Este o Derecha |
-
 | W   | Oeste o Centro Izquierdo |
-
 | NW   | Noroeste o arriba a la izquierda |
-
 | NE   | Noreste o arriba a la derecha |
-
 | SE   | Sudeste o abajo a la derecha |
-
 | SW   | Sudoeste o abajo a la izquierda |
-
 | NS   | NS estira el widget verticalmente. Sin embargo, deja el widget centrado horizontalmente. |
-
 | EW   | EW estira el widget horizontalmente. Sin embargo, deja el widget centrado verticalmente. |
 
 
