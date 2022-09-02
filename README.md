@@ -12,7 +12,7 @@ Aplicaciones visuales hechas con la libreria tkinter de python
 ![Image Text](https://github.com/facumruiz/PythonGUI/blob/main/Form2CSV/img/Tkinter-grid-Sticky-Options.png) 
 
 | Sticky   | Descripcion |
-| --- | --- |
+
 | N   | Norte o centro superior |
 | --- | --- |
 | S   | Centro Sur o Inferior |
