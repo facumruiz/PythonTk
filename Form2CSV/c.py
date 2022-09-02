@@ -23,6 +23,8 @@ for i in range(9):
     for j in range(11):
         root.grid_columnconfigure(j, weight=1)
 
+        Label(root, text=f'FOMRULARIO', anchor=N, width=10, bg='white', font=('Arial', 12, 'bold')).grid(row=1, column=centro_num, sticky=EW)
+
         Entry(root, text=f'Button {i}-{j}').grid(row=i, column=j, sticky=NSEW)
         nombre = Label(root, text=f'Nombre', anchor=NW, width=10, bg='white', font=('Arial', 12, 'bold')).grid(row=2, column=centro_num, sticky=NSEW)
         dato1 = Entry(root, width=80,  bd=0, borderwidth=17, relief=tk.FLAT, font=('Arial', 12), bg='gray95').grid(row=2, column=centro_num, sticky=W)
@@ -41,6 +43,9 @@ for i in range(9):
         
         telefono = Label(root, text=f'Telefono', anchor=NW, width=10, bg='white', font=('Arial', 12, 'bold')).grid(row=6, column=centro_num, sticky=NSEW)
         dato1 = Entry(root, width=80,  bd=0, borderwidth=17, relief=tk.FLAT, font=('Arial', 12), bg='gray95').grid(row=6, column=centro_num, sticky=W)
+
+        
+        agregar = Button(root, width=0,fg='white',  bd=0, font=('Arial', 15),text='Agregar', bg='dodger blue').grid(column=centro_num, row=7,pady=10, sticky="EW")
 
 root.mainloop()
 root.mainloop()
