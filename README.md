@@ -1,6 +1,7 @@
 # PythonGUI
 Aplicaciones visuales hechas con la libreria tkinter de python
 
+## Concepto de grid en Tk
 
 # FORM2CSV
 Formulario de Registro con labels, inputs y button en Python usando Pandas y Tkinter. Visual con grids responsive.
