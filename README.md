@@ -24,7 +24,25 @@ Aplicaciones visuales hechas con la libreria tkinter de python
 | NS   | NS estira el widget verticalmente. Sin embargo, deja el widget centrado horizontalmente. |
 | EW   | EW estira el widget horizontalmente. Sin embargo, deja el widget centrado verticalmente. |
 
+```
+Label(root, text='N', width=10, bg='white').grid(row=6, column=6, sticky=N)
 
+Label(root, text='CENTER', width=10, bg='white').grid(row=6, column=6)
+
+Label(root, text='S', width=10, bg='white').grid(row=6, column=6, sticky=S)
+
+Label(root, text='NW', width=10, bg='white').grid(row=6, column=6, sticky=NW)
+
+Label(root, text='W', width=10, bg='white').grid(row=6, column=6, sticky=W)
+
+Label(root, text='SW', width=10, bg='white').grid(row=6, column=6, sticky=SW)
+
+Label(root, text='NE', width=10, bg='white').grid(row=6, column=6, sticky=NE)
+
+Label(root, text='E', width=10, bg='white').grid(row=6, column=6, sticky=E)
+
+Label(root, text='SE', width=10, bg='white').grid(row=6, column=6, sticky=SE)	
+```
 # FORM2CSV
 Formulario de Registro con labels, inputs y button. Visual con grids responsive.
 
