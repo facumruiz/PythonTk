@@ -25,7 +25,7 @@ Aplicaciones visuales hechas con la libreria tkinter de python
 | NS   | NS estira el widget verticalmente. Sin embargo, deja el widget centrado horizontalmente. |
 | EW   | EW estira el widget horizontalmente. Sin embargo, deja el widget centrado verticalmente. |
 
-Aplicacion: uso el sticky para posicionar labels en una misma grid
+- Aplicacion: uso el sticky para posicionar labels en una misma grid
 
 ```
 Label(root, text='N', width=10, bg='white').grid(row=6, column=6, sticky=N)
