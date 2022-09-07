@@ -1,6 +1,10 @@
 # FORM2CSV
 Formulario de Registro con labels, inputs y button. Visual con grids responsive.
 
+
+### Funcion button: agregar_datos()
+Agrega los datos del formulario a un excel.
+
 ![Image Text](https://github.com/facumruiz/PythonGUI/blob/main/Form2CSV/img/formbuttonlabel.PNG)
 
 ### Formulario con dataFrame
@@ -10,5 +14,3 @@ Boton agregar: agrega datos a archivo excel
 
 Boton cargar: para visualizar en el "dataFrame" los datos del archivo excel
 
-### Funcion button: agregar_datos()
-Agrega los datos del formulario a un excel. Proxima actualizacion... formato csv
